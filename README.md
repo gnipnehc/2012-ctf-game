@@ -1,4 +1,4 @@
-2014 CTF Game
+2012 CTF Game
 =============
 
 The following is a list of all of the challenges used for the 2014 CTF along with their description and link for convenience. Each of these challenges contain a README which well tell you how to stand up the challenge and the correct key to allow you to check yourself when you solve it.
