@@ -197,3 +197,55 @@ The following is a list of all of the challenges used for the 2014 CTF along wit
     <td>Detective Spooner, Dr. Lanning was found outside of his office after a rapid deceleration caused by the pavement outside. We do not believe this was a suicide, unfortunately he is in no state to tell us and all of the security cameras in his office seem to be broken. Luckily he left us a service running at $server that is listening on the port of the current year. We tried talking to it but our guys are at a loss.</td>
   </tr>
 </table>
+
+### Crypto
+
+<table>
+  <tr>
+    <th>Title</th>
+    <th>Value</th>
+    <th>Repository</th>
+    <th>Description</th>
+  </tr>
+
+  <tr>
+    <td>All Your Base</td>
+    <td>100</td>
+    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-a">2012-crypto-a></a></td>
+    <td> We found a leak hinting that someone is making a Nintendo 64 port of the popular video game "Zero Wing". Among the leaked information was [this file](http://$static_file_server/ca-2a223af624354249ac69bb8019c5f490/leak) that could not be opened. See what you can figure out.
+  
+    MD5: 40716445f4aaca87bd4e401ca7635bf6</td>    
+  </tr>
+
+  <tr>
+    <td>Alexander Kemurdjian</td>
+    <td>200</td>
+    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-c">2012-crytpo-c</a></td>
+    <td>  The Russian lunar rover, Lunokhod 1, was mysteriously reactivated after many years of innactivity. It has started transmitting data but Russia has lost the keys for decrypting it. They have enlisted our help in reversing their encryption by giving us the program used to encrypt it. Here is the [encryption program](http://$static_file_server/cc-21a8ba3d5f514842ac2a2f8c73a864fe/encryptor) and the [data](http://$static_file_server/cc-21a8ba3d5f514842ac2a2f8c73a864fe/flag.encrypted). Good luck.
+  
+  Data MD5: b1c0b02fa4569bb4c046165c8a26d8fe<br/>Program MD5: b34b5f2ced72cf46648b57e7a97e3d85</td>    
+  </tr>
+
+  <tr>
+    <td>While You Were Gone</td>
+    <td>300</td>
+    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-b">2012-crytpo-b</a></td>
+    <td>  Mrs. Ross called. She said something about Congress and a new standard. I know you were talking about making a new emblem for the country. She even sent [this package.](http://$static_file_server/cb-4cd58a5b16644c9cae3a3f6b8483e6c7/flag.bmp.encrypted) It looks off to me, like there's something tucked inside. Give it a look when you get back, alright?
+  
+    MD5: 3d4357e6c78e57f9184c6b8a67b27588</td>    
+  </tr>
+
+  <tr>
+    <td>Danger Zone</td>
+    <td>400</td>
+    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-d">2012-crypto-d</a></td>
+    <td>The KGB has been sending encrypted [transmissions](http://$dangerzone/flag.encrypted) to their agent Kenny Loggins. In order to bring him in we need to show a judge what they are sending him. Luckily for us they have a server located at <http://$dangerzone> that responds to all requests by encrypting the data sent to it. We have also found that they host the source [code](http://$dangerzone/encryptor.c) for their encryption mechanism on the same server. </td>    
+  </tr>
+
+  <tr>
+    <td>Pool on the roof</td>
+    <td>500</td>
+    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-e">2012-crytpo-e</a></td>
+    <td>Prove yourself, Crash, in this latest phase of the challenge. You've only got a little time to show Burn. Here's the next [target](http://$pool) that the ref's have picked out.</td>    
+  </tr>
+</table>
