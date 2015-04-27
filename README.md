@@ -144,7 +144,9 @@ The following is a list of all of the challenges used for the 2014 CTF along wit
     <td>TV on the Fritz</td>
     <td>500</td>
     <td><a href="https://github.com/mitre-cyber-academy/2012-forensics-g">2012-forensics-g</a></td>
-    <td></td>
+    <td>  It looks like our favourite show isn't coming in... or is [it](http://$static_file_server/fg-1db66fc00f4b473c95079b0167627886/image.bmp)?
+  
+    MD5: a484c47b067c0d6ae34cbf67014918fc</td>
   </tr>
 </table>
 
