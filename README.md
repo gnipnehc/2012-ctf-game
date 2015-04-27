@@ -211,7 +211,7 @@ The following is a list of all of the challenges used for the 2014 CTF along wit
   <tr>
     <td>All Your Base</td>
     <td>100</td>
-    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-a">2012-crypto-a></a></td>
+    <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-a">2012-crypto-a</a></td>
     <td> We found a leak hinting that someone is making a Nintendo 64 port of the popular video game "Zero Wing". Among the leaked information was [this file](http://$static_file_server/ca-2a223af624354249ac69bb8019c5f490/leak) that could not be opened. See what you can figure out.
   
     MD5: 40716445f4aaca87bd4e401ca7635bf6</td>    
@@ -223,7 +223,7 @@ The following is a list of all of the challenges used for the 2014 CTF along wit
     <td><a href="https://github.com/mitre-cyber-academy/2012-crypto-c">2012-crytpo-c</a></td>
     <td>  The Russian lunar rover, Lunokhod 1, was mysteriously reactivated after many years of innactivity. It has started transmitting data but Russia has lost the keys for decrypting it. They have enlisted our help in reversing their encryption by giving us the program used to encrypt it. Here is the [encryption program](http://$static_file_server/cc-21a8ba3d5f514842ac2a2f8c73a864fe/encryptor) and the [data](http://$static_file_server/cc-21a8ba3d5f514842ac2a2f8c73a864fe/flag.encrypted). Good luck.
   
-  Data MD5: b1c0b02fa4569bb4c046165c8a26d8fe<br/>Program MD5: b34b5f2ced72cf46648b57e7a97e3d85</td>    
+    Data MD5: b1c0b02fa4569bb4c046165c8a26d8fe<br/>Program MD5: b34b5f2ced72cf46648b57e7a97e3d85</td>    
   </tr>
 
   <tr>
