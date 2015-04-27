@@ -155,6 +155,7 @@ The following is a list of all of the challenges used for the 2014 CTF along wit
       <th>Title</th>
       <th>Value</th>
       <th>Repository</th>
+      <th>Description</th>
   </tr>
   <tr>
     <td>Confused Highway Engineers</td>
